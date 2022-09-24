@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+}
+
+h1,h2,p {
+    font-family: 'Inter';
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }

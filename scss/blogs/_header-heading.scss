@@ -1,0 +1,101 @@
+
+
+  .header-heading {
+    position: relative;
+  }
+
+  .ulambula {
+    @include reset-list;
+    display: flex;
+  }
+
+  
+  .ulambula li {
+    @include reset-list;
+    padding-left: 10px;
+    width: 120px;
+    
+  }
+
+  .dropdown:hover .dropdown-ul {
+    display: block;
+    
+  }
+
+  .navbar ul li a {
+    opacity: 0.8;
+  }
+
+  .dropdown-ul {
+    margin-top: 1px;
+    transition: 0.3s ease;
+    padding: 0;
+    border: 1px solid beige;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 3px;
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    display: none;
+    width: 250px;
+  }
+
+  .dropdown-ul .nav-item {
+    padding: 5px;
+    min-width: 150px;
+    margin-bottom: 10px;
+
+  }
+
+  .lop {
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .nav-item a{
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 110px;
+  }
+
+  .hash {
+    width: 100px;
+    height: 50px;
+    margin-top: 18px;
+  }
+
+  .nav-item  a:hover  {
+    border-bottom: 1px solid beige;
+  }
+
+  .navbar {
+   display: inline-block;
+  }
+
+ .ulambula {
+    justify-content: space-evenly;
+  }
+  
+  .ulambula li a {
+    text-decoration: none;
+    list-style: none;   
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+ .nav-item-2 a{
+    margin-bottom: 15px;
+    width: 200px;
+    margin-top: 10px;
+ }
+
+ .nav-item-2 {
+  margin-top: 10px;
+ }
+
+ .pol {
+  margin-top: 10px;
+ }
